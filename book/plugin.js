@@ -6,4 +6,8 @@ require(["gitbook"], function(gitbook) {
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(hm, s);
     });
+
+    gitbook.events.bind("page.change", function(e){
+        window._hmt && _hmt.push(['_trackEvent', location.pathname, 'page.change', '', '']);
+    });
 });

@@ -1,11 +1,10 @@
 {
   "author": {
-    "email": "yuqi@wisedu.com",
-    "name": "elvisqi",
-    "url": "http://wisedu.github.io"
+    "email": "nfer.zhuang@gmail.com",
+    "name": "Nfer Zhuang"
   },
   "bugs": {
-    "url": "https://github.com/wisedu/gitbook-plugin-baidu-wis/issues"
+    "url": "https://github.com/nfer/gitbook-plugin-baidu-nfer/issues"
   },
   "dependencies": {},
   "description": "Baidu Analytics tracking for your gitbook.",
@@ -23,7 +22,7 @@
       }
     }
   },
-  "homepage": "https://github.com/wisedu/gitbook-plugin-baidu-wis",
+  "homepage": "https://github.com/nfer/gitbook-plugin-baidu-nfer",
   "keywords": [
     "gitbook",
     "plugin",
@@ -34,11 +33,10 @@
   "main": "index.js",
   "maintainers": [
     {
-      "email": "yuqi@wisedu.com",
-      "name": "elvisqi"
+      "email": "nfer.zhuang@gmail.com",
+      "name": "Nfer Zhuang"
     }
   ],
-  "name": "gitbook-plugin-baidu-wis",
-  "readme": "ERROR: No README data found!",
+  "name": "gitbook-plugin-baidu-nfer",
   "version": "1.0.0"
 }
