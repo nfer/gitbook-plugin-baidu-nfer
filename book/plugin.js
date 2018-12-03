@@ -2,7 +2,7 @@ require(["gitbook"], function(gitbook) {
     gitbook.events.bind("start", function(e, config) {
         var conf = config["baidu-nfer"] || {};
         var hm = document.createElement('script');
-        hm.src = '//hm.baidu.com/hm.js?' + conf.token;
+        hm.src = 'https://hm.baidu.com/hm.js?' + conf.token;
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(hm, s);
     });
