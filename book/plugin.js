@@ -1,8 +1,8 @@
 require(["gitbook"], function(gitbook) {
     gitbook.events.bind("start", function(e, config) {
-        config["baidu-wis"] = config["baidu-wis"] || {};
+        var conf = config["baidu-tongji"] || {};
         var hm = document.createElement('script');
-        hm.src = '//hm.baidu.com/hm.js?' + config["baidu-wis"].token;
+        hm.src = '//hm.baidu.com/hm.js?' + conf.token;
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(hm, s);
     });
