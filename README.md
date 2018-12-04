@@ -10,14 +10,14 @@ A gitbook plugin to add Baidu Analytics for your book
 Install with this command:
 
 ```shell
-npm install gitbook-plugin-baidu
+npm install gitbook-plugin-baidu-nfer
 ```
 
 or add this to your `book.json` config:
 
 ```json
 {
-    "plugin": ["baidu"]
+    "plugin": ["baidu-nfer"]
 }
 ```
 
@@ -35,9 +35,9 @@ Then add your token to `book.json` config:
 
 ```json
 {
-    "plugin": ["baidu"],
+    "plugin": ["baidu-nfer"],
     "pluginsConfig": {
-        "baidu": {
+        "baidu-nfer": {
             "token": "YOUR TOKEN"
         }
     }
